@@ -1,76 +1,87 @@
-🎓 ScholarAI – AI Scholarship & Government Scheme Finder
+# 🎓 ScholarAI – AI Scholarship & Government Scheme Finder
 
-ScholarAI is an AI-powered web application that helps students discover scholarships and government schemes based on their personal profile. The platform uses Google Gemini AI to provide personalized recommendations according to education, annual income, state, category, disability, and minority status.
-
----
-
- 📌 Problem Statement
-
-Many students miss scholarships and government welfare schemes because information is scattered across multiple websites and eligibility criteria are difficult to understand.
-
-ScholarAI solves this problem by providing a single platform where students receive AI-powered personalized scholarship and government scheme recommendations.
+An AI-powered web application that helps students find scholarships and government schemes based on their personal details using Google Gemini AI.
 
 ---
 
-💡 Solution
+## 📖 Project Overview
 
-ScholarAI collects a student's profile information and uses Google Gemini AI to analyze eligibility. Based on the student's details, the system recommends suitable scholarships and government schemes along with eligibility information and official application links.
+ScholarAI is a smart platform that helps students easily find scholarships and government schemes. Instead of searching many websites, students can enter their profile once and receive personalized recommendations using Artificial Intelligence.
 
 ---
 
-✨ Features
+## ❗ Problem Statement
+
+Many students miss scholarships because:
+
+- Information is available on different websites.
+- Eligibility rules are difficult to understand.
+- Students do not know which scholarship matches their profile.
+- The application process is confusing.
+
+---
+
+## 💡 Our Solution
+
+ScholarAI solves this problem by using Google Gemini AI.
+
+Students enter their details such as:
+
+- Name
+- Education
+- Annual Income
+- State
+- Category
+- Minority Status
+- Disability Status
+
+The AI analyzes the information and recommends suitable scholarships and government schemes with official links.
+
+---
+
+## ✨ Features
 
 - 🤖 AI-powered scholarship recommendations
 - 🏛️ Government scheme finder
 - 🎯 Personalized eligibility analysis
 - 📄 Download recommendations as PDF
 - 💬 AI Chat Assistant
-- 📱 Fully responsive design
-- ⚡ Fast and modern user interface
-- 🔒 Secure environment variable configuration
+- 📱 Responsive design
+- ⚡ Fast and simple interface
+- 🔒 Secure API integration
 
 ---
 
- 🖥️ Screens
+## 🛠️ Tech Stack
 
-- Home Page
-- Student Profile
-- AI Recommendations
-- Scheme Details
-- AI Chat Assistant
-
----
-
-🛠️ Tech Stack
-
- Frontend
+### Frontend
 
 - React.js
 - Vite
 - Tailwind CSS
 - React Router DOM
 
- AI
+### AI
 
-- Google Gemini AI API
+- Google Gemini AI
 
- PDF Generation
+### PDF
 
 - jsPDF
 
- Deployment
+### Deployment
 
 - Vercel
 
-Version Control
+### Version Control
 
-- Git & GitHub
+- GitHub
 
 ---
 
- 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 AI-Scholarship-Government-Scheme-Finder
 │
 ├── public
@@ -78,8 +89,8 @@ AI-Scholarship-Government-Scheme-Finder
 │   ├── components
 │   ├── pages
 │   ├── services
-│   ├── utils
-│   └── data
+│   ├── data
+│   └── utils
 │
 ├── index.html
 ├── package.json
@@ -89,33 +100,33 @@ AI-Scholarship-Government-Scheme-Finder
 
 ---
 
-🚀 Installation
+## 🚀 Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/gopal182245/AI-Scholarship-Government-Scheme-Finder.git
 ```
 
-Go to the project folder
+### Open the project
 
 ```bash
 cd AI-Scholarship-Government-Scheme-Finder
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Create a `.env` file
+### Create a `.env` file
 
 ```env
-VITE_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+VITE_GEMINI_API_KEY=YOUR_API_KEY
 ```
 
-Start the development server
+### Run the project
 
 ```bash
 npm run dev
@@ -123,42 +134,56 @@ npm run dev
 
 ---
 
-🌐 Live Demo
+## 🌐 Live Demo
 
-Deployed on Vercel
+**Website**
 
-Add your deployed URL here after deployment.
+Paste your Vercel deployment link here.
+
+Example:
+
+https://your-project.vercel.app
 
 ---
 
-📷 Screenshots
+## 📸 Project Screenshots
 
 Add screenshots of:
 
-- Home Page
-- Student Profile
-- AI Recommendation Page
-- AI Chat
-- PDF Download
+- 🏠 Home Page
+- 👤 Student Profile
+- 🤖 AI Recommendations
+- 📄 PDF Download
+- 💬 AI Chat Assistant
 
 ---
 
- 🔮 Future Scope
+## 🎯 Advantages
 
-- OCR-based document verification
-- Voice-enabled AI Assistant
-- Regional language support
+- Saves students' time
+- Easy to use
+- Personalized recommendations
+- AI-powered analysis
+- Helps students discover more opportunities
+
+---
+
+## 🔮 Future Scope
+
+- Voice Assistant
+- Regional Language Support
 - Mobile Application
-- One-click scholarship application
-- Scholarship deadline notifications
+- OCR Document Verification
+- Scholarship Deadline Notifications
+- One-click Scholarship Application
 
 ---
 
- 👨‍💻 Developer
+## 👨‍💻 Developer
 
-D. R. Gopal Kulkarni
+**D. R. Gopal Kulkarni**
 
-Information Science & Engineering
+B.E. Information Science & Engineering
 
 The Oxford College of Engineering
 
@@ -166,21 +191,27 @@ Bengaluru, Karnataka
 
 ---
 
- 🙏 Acknowledgements
+## 🙏 Acknowledgements
+
+Special thanks to:
 
 - Google Gemini AI
 - React.js
-- Vite
 - Tailwind CSS
+- Vite
 - Vercel
 - GitHub
 
 ---
 
-⭐ If you like this project
+## 📄 License
 
-Please consider giving this repository a ⭐ on GitHub.
+This project was developed for learning and hackathon purposes.
 
 ---
 
-© 2026 ScholarAI. All Rights Reserved.
+## ⭐ Thank You
+
+Thank you for visiting our project.
+
+If you like this project, please give it a ⭐ on GitHub.
