@@ -2,34 +2,36 @@ import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <section className="bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 text-white py-28">
+    <section className="bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 text-white py-16 md:py-28">
       <div className="max-w-7xl mx-auto px-6 text-center">
 
         {/* Badge */}
-        <div className="inline-flex items-center bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-5 py-2 mb-8">
-          <span className="text-sm font-semibold tracking-wide">
+        <div className="inline-flex items-center bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-2 mb-8">
+          <span className="text-xs sm:text-sm font-semibold tracking-wide">
             🤖 Powered by Google Gemini AI
           </span>
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-5xl md:text-7xl font-extrabold leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
           Discover the Right
-          <span className="block text-yellow-300">
+          <span className="block text-yellow-300 mt-2">
             Scholarships & Government Schemes
           </span>
-          with Artificial Intelligence
+          <span className="block mt-2">
+            with Artificial Intelligence
+          </span>
         </h1>
 
         {/* Description */}
-        <p className="mt-8 text-lg md:text-xl max-w-3xl mx-auto text-blue-100 leading-8">
+        <p className="mt-8 text-base sm:text-lg md:text-xl max-w-3xl mx-auto text-blue-100 leading-7 md:leading-8">
           ScholarAI uses Google Gemini AI to recommend scholarships and
           government schemes based on your education, state, annual income,
           category, disability status, and eligibility criteria.
         </p>
 
         {/* Buttons */}
-        <div className="mt-12 flex flex-col sm:flex-row justify-center gap-5">
+        <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
 
           <Link
             to="/profile"
@@ -47,10 +49,10 @@ function Hero() {
 
         </div>
 
-        {/* Small Features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
+        {/* Feature Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
 
-          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">
+          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:scale-105 transition duration-300">
             <div className="text-4xl mb-4">🎓</div>
 
             <h3 className="text-xl font-bold">
@@ -62,8 +64,8 @@ function Hero() {
             </p>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">
-            <div className="text-4xl mb-4">🏛</div>
+          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:scale-105 transition duration-300">
+            <div className="text-4xl mb-4">🏛️</div>
 
             <h3 className="text-xl font-bold">
               Government Schemes
@@ -74,7 +76,7 @@ function Hero() {
             </p>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">
+          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:scale-105 transition duration-300">
             <div className="text-4xl mb-4">⚡</div>
 
             <h3 className="text-xl font-bold">
