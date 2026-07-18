@@ -143,11 +143,7 @@ npm run dev
 
 **Live Website**
 
-Paste your Vercel deployment URL here.
-
-Example:
-
-https://your-project-name.vercel.app
+👉 https://ai-scholarship-government-scheme-fi.vercel.app
 
 ---
 
