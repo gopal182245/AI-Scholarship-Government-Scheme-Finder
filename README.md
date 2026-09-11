@@ -128,14 +128,28 @@ npm install
 ### Create a `.env` file
 
 ```env
-VITE_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
+
+Get your API key from: https://aistudio.google.com/app/apikeys
 
 ### Run the project
 
+For local development with API:
 ```bash
+# Terminal 1: Run API server
+npm run dev:api
+
+# Terminal 2: Run Vite dev server
 npm run dev
 ```
+
+Or use Vercel CLI (if installed):
+```bash
+npm run dev:full
+```
+
+Visit: http://localhost:5173
 
 ---
 
